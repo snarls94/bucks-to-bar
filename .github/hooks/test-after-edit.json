@@ -1,0 +1,11 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "type": "command",
+        "command": "node .github/hooks/run-vitest-after-edit.cjs",
+        "timeout": 120
+      }
+    ]
+  }
+}
